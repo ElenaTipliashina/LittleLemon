@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import mainfood from './mainfood.jpg';
 import greeksalad from './greeksalad.jpg';
@@ -30,7 +30,7 @@ function Main() {
           </div>
        </div>
 
-      
+       
    
 </div>
 
@@ -41,4 +41,3 @@ function Main() {
 
  
 export default Main;
-
